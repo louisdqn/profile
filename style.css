@@ -1,0 +1,88 @@
+body {
+  background-color: #F1F2EB;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: 'Dancing Script', cursive;
+  color: #4A4A48;
+}
+
+p, h2{
+  font-family: 'Montserrat', sans-serif;
+}
+
+a{
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+li {
+  text-decoration: none;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 200px
+}
+
+.btn-blue{
+  background-color:#C5D9E2;
+  border-radius:5px;
+  border:1px solid #EFF6E0;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:'Montserrat', sans-serif;
+  font-size:17px;
+  padding:8px 16px;
+  text-decoration:none;
+}
+.btn-blue:hover {
+  background-color:#598392;
+  color:#4A4A48;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  border-radius:4px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.card ul{
+  padding-left: 0;
+}
+
+.card li{
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
